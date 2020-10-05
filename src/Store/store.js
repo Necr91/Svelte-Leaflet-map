@@ -1,0 +1,20 @@
+import { writable } from 'svelte/store';
+
+export const arrivalAirportData = writable([]);
+export const countryCodeData = writable([]);
+export const data = writable([]);
+export const departureAirportData = writable([]);
+export const filteredData = writable([]);
+export const line = writable();
+export const loadedArrivalCode = writable("");
+export const loadedDepartureCode = writable("");
+export const map = writable();
+export const markerArrival = writable();
+export const markerDeparture = writable();
+export const numberOfCountryes = writable(0);
+export const numberOfRoutes = writable(0);
+export const selected = writable("");
+export const selectedArrivalAirport = writable({});
+export const selectedCountryes = writable([]);
+export const selectedDepartureAirport = writable({});
+export const suggestions = writable([]);
